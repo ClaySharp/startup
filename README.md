@@ -3,3 +3,4 @@
 
 - TODO: Startup Idea
 - TODO: Figma Design 
+- TODO: Elevator Pitch
