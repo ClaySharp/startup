@@ -1,3 +1,5 @@
-# startup
-## Public Repository for Web Programming Class (CS260)
-### This is my modification to push
+# Startup
+### Public Repository for Web Programming Class (CS260)
+
+- TODO: Startup Idea
+- TODO: Figma Design 
