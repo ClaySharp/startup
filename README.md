@@ -13,3 +13,8 @@ Key Features
 * Author Search
 * Poem Search 
 * Fun Daily Quote
+
+### Things I've Learned:
+* I learned all about deployment scripts and how powerful they can be
+* I learned about html and how to structure an html file properly
+* I learned how to deploy local files to remote web server
