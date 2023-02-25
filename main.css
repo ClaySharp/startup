@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    min-width: 375px;
+    min-width: 405px;
 }
 
 header {
@@ -54,8 +54,9 @@ p {
 }
 
 input {
+    flex-shrink: inherit;
     height: 50px;
-    width: 400px;
+    width: 350px;
     text-align: center;
 }
 
