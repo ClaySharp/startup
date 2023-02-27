@@ -45,8 +45,25 @@ div {
     padding: 10px;
 }
 
+.poetry-card-bg {
+    height: 90%;
+    width: 70%;
+    background-color: rgb(105, 101, 20);
+    border-radius: 3%;
+}
+
 h1 {
     color:black !important;
+}
+
+.poet-list-header {
+    margin-top: 1em;
+}
+
+ul {
+    margin-top: 1em !important;
+    list-style-type: none;
+    padding-left: 0 !important;
 }
 
 p {
