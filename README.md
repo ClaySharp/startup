@@ -9,12 +9,12 @@ Key Features
 * Secure User Account
 * Free Access to Poetry
 * Ability to Save Poems
-* Poetry Browse
-* Author Search
-* Poem Search 
+* Poetry Browse 
 * Fun Daily Quote
 
 ### Things I've Learned:
 * I learned all about deployment scripts and how powerful they can be
 * I learned about html and how to structure an html file properly
 * I learned how to deploy local files to remote web server
+* I learned about HTML and how to create basic HTML structures
+* I learned about CSS and the powerful Bootstrap framework 
