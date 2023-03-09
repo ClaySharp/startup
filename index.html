@@ -8,6 +8,8 @@
     <!-- Reference for Favicon, Stylesheet, and Bootstrap framework-->
     <link rel="icon" href="source_book_favicon.png" />
     <link rel="stylesheet" href="main.css" />
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="main.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,42 +17,41 @@
       crossorigin="anonymous"
     />
 </head>
+
 <body class="bg-dark text-light">
-    <header class="container-fluid">
-        <nav class="navbar navbar-dark">
-          <menu class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="read.html">Read Poetry</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="add.html">Add Poetry</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </menu>
-        </nav>
-      </header>
+  
+  <header class="container-fluid">
+    <nav class="navbar navbar-dark">
+      <menu class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="read.html">Discover</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="add.html">Create</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </menu>
+    </nav>
+  </header>
+
       <main class="container-fluid bg-secondary text-center">
         <div>
           <h1>Welcome to My Poetry Website</h1>
           <p>Login to get started</p>
-          <form method="get" action="play.html">
             <input type="text" id="name" placeholder="Username" />
             <div>
-                <input type="text" id="password" placeholder="Password" />
+                <button type="submit" class="btn btn-primary" onclick="login()">Login</button>
             </div>
-            <div>
-                <button type="submit" class="btn btn-primary">Login</button>
-            </div>
-          </form>
         </div>
       </main>
+      
       <footer class="bg-dark text-dark text-muted">
-        <div class="container-fluid">
+        <div class="footer-div container-fluid">
           <span class="text-reset">ClaySharp</span>
           <a class="text-reset" href="https://github.com/ClaySharp/simon-game-application">GitHub</a>
         </div>

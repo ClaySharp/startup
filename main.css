@@ -1,20 +1,30 @@
 body {
     display: flex;
     flex-direction: column;
-    min-width: 405px;
+    max-width: 100%;
+    min-width: 310px;
+    max-height: 100%;
+}
+
+nav .navbar-nav {
+    min-width: 100%;
 }
 
 header {
-    font-size: 1.5em;
-    flex: 0 80px;
+    flex: 0 40px;
+}
+
+#sticky {
+    position: absolute
 }
 
 footer {
-    flex: 0 50px;
+    flex: 0 0px;
 }
 
-nav {
-    padding-top: 0 !important;
+.navbar-nav {
+    margin-top: 5px !important;
+    --bs-nav-link-padding-y: 0.0rem !important;
 }
 
 menu {
@@ -22,15 +32,15 @@ menu {
     display: flex;
     flex-direction: row !important;
     list-style: none;
+    padding-top: 0% !important;
 }
 
 menu .nav-item {
-    padding-top: 1em;
-    padding: 0 1em;
+    padding: 0 .4em;
 }
 
 main {
-    flex: 1 calc(100vh - 110px);
+    flex: 1 calc(100vh - 50px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +59,7 @@ div {
     height: 90%;
     width: 70%;
     background-color: rgb(105, 101, 20);
-    border-radius: 3%;
+    border-radius: 18px;
 }
 
 h1 {
@@ -69,6 +79,7 @@ textarea {
     height: 175px;
     width: fit-content;
     margin-bottom: 1em !important;
+    border-radius: 18px;
 }
 
 ul {
@@ -83,9 +94,10 @@ p {
 
 input {
     flex-shrink: inherit !important;
-    height: 50px;
-    width: 350px;
     text-align: center;
+    border-radius: 10px;
+    height: 2em;
+    width: 13em;
 }
 
 button {
@@ -93,7 +105,13 @@ button {
     width: 150px;
 }
 
-@media (max-height: 600px) {
+.footer-div {
+    font-size: medium;
+    padding: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+@media (max-height: 400px) {
     header {
       display: none;
     }
