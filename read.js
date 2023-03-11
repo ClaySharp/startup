@@ -8,7 +8,7 @@ function parseData() {
     author = holder[0];
     title  = holder[1];
     poem   = holder[2];
-    //window.localStorage.clear();
+    window.localStorage.clear();
 }
 
 function createList() {
