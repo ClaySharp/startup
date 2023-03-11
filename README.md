@@ -14,7 +14,10 @@ Key Features
 
 ### Things I've Learned:
 * I learned all about deployment scripts and how powerful they can be
-* I learned about html and how to structure an html file properly
+* I learned about HTML and how to structure an HTML file properly
 * I learned how to deploy local files to remote web server
 * I learned about HTML and how to create basic HTML structures
 * I learned about CSS and the powerful Bootstrap framework 
+* I learned about JavaScript functions and HTML insertion/deletion methods
+* I learned about JavaScript LocalStorage feature
+* I learned about basic JavaScript capabilities
