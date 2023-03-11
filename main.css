@@ -13,9 +13,7 @@ header {
     flex: 0 40px;
 }
 
-#sticky {
-    position: absolute
-}
+
 
 footer {
     flex: 0 0px;
@@ -48,37 +46,69 @@ main {
     background-size: 100% 100%;
 }
 
-div {
-    font-size: x-large;
-    padding-bottom: 5px !important;
-    padding: 10px;
+.login-screen {
+    margin-top: .8em;
 }
 
 .poetry-card-bg {
-    height: 90%;
-    width: 70%;
-    background-color: rgb(105, 101, 20);
+    width: 85%;
+    background-color: rgb(129, 122, 8);
     border-radius: 18px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.poetry-card-read {
+    height: 100%;
+    width: 95%;
+    background-color: rgb(129, 122, 8);
+    border-radius: 18px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 h1 {
-    color:black !important;
+    color:rgb(0, 0, 0) !important;
 }
 
 .poet-list-header {
-    margin-top: 1em;
+    margin-top: .4em;
 }
 
 .add-header {
-    margin-top: 1em;
+    margin-top: .4em;
+}
+
+.add-poetry-textarea {
+    flex-shrink: inherit;
+    margin-bottom: 0em;
+    padding-top: .3em !important;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.add-poetry-submit {
+    flex-shrink: inherit;
+    box-sizing: border-box;
+    margin-bottom: 1.1em;
+}
+
+#title-from-input {
+    flex-shrink: inherit;
+    margin-bottom: .5em;
+    border-radius: 8px;
+    text-align: center !important;
+    width: 75%;
+    height: 40px;
+    
 }
 
 textarea {
-    position: inherit;
-    height: 175px;
-    width: fit-content;
+    flex-shrink: inherit;
+    height: 400px;
     margin-bottom: 1em !important;
     border-radius: 18px;
+    box-sizing: border-box;
 }
 
 ul {
@@ -91,12 +121,18 @@ p {
     color:black !important;
 }
 
-input {
+#name {
     flex-shrink: inherit !important;
-    text-align: center;
     border-radius: 10px;
-    height: 2em;
-    width: 13em;
+    text-align: center;
+    height: 2.5em;
+    width: 15em;
+}
+
+#poetry-list {
+    flex-shrink: inherit;
+    height: fit-content;
+    padding: 2em;
 }
 
 button {
@@ -120,4 +156,39 @@ button {
     main {
       flex: 1 100vh;
     }
-  }
+}
+
+@media (max-width: 400px) {
+    .poetry-card-bg {
+        width: 100%;
+    }
+    .poetry-card-read {
+        width: 100%;
+    }
+}
+
+#output {
+    justify-content: center;
+    color: rgb(33, 63, 5);
+    background: rgb(129, 122, 8);
+    margin-top: 1em;
+    padding: 1em;
+    min-height: 5em;
+    font-size: larger;
+}
+
+th {
+    cursor: pointer;
+}
+  
+td {
+    padding-top: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#test {
+    list-style-type: none;
+    text-decoration: underline;
+    cursor:pointer;
+}
